@@ -978,15 +978,13 @@ nav.navbar-collapse{
 /* 3 - Menu Section End
 ---------------------------------------------------------------------- */
 
-@media screen and (min-width: 1025px) {
+/* @media screen and (min-width: 1025px) {
 	.setup{
-		/* margin-left: 98px;
-		width: -webkit-fill-available; */
 		padding-left: 66px;
 	}
-  }
+  } */
 
-  @media(min-width: 25em){
+  /* @media(min-width: 25em){
 	  .navbar-fixed-top{
 		width: 239px !important;
 	  }
@@ -1004,7 +1002,7 @@ nav.navbar-collapse{
 	  .navbar-nav>li>.sub-menu>li>a{
 		font-size: 13px;
 	  }
-  }
+  } */
 
   /* @media(min-width: 800px){
 	.navbar-fixed-top{
