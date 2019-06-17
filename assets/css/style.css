@@ -940,7 +940,7 @@ nav.navbar-collapse{
 	.navbar-nav {
 		float: none;
 	}
-}
+}    
 
 @media screen and (max-width: 320px) {
 	.heading1 {
@@ -978,7 +978,39 @@ nav.navbar-collapse{
 /* 3 - Menu Section End
 ---------------------------------------------------------------------- */
 
+@media screen and (min-width: 1025px) {
+	.setup{
+		/* margin-left: 98px;
+		width: -webkit-fill-available; */
+		padding-left: 66px;
+	}
+  }
 
+  @media(min-width: 25em){
+	  .navbar-fixed-top{
+		width: 239px !important;
+	  }
+	  .navbar-default .navbar-nav>li>a{
+		display: contents;
+	  }
+	  .toggle_nav_button{
+		  padding-left: 20px;
+		  padding-top: inherit;
+		  font-size: 25px;
+	  }
+	  .navbar-brand>img{
+		  height: 48px !important;
+	  }
+	  .navbar-nav>li>.sub-menu>li>a{
+		font-size: 13px;
+	  }
+  }
+
+  /* @media(min-width: 800px){
+	.navbar-fixed-top{
+	  width: 300px !important;
+	}
+} */
 
 
 /* 4 - Page Top Box
